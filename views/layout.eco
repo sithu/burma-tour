@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><%= @title %> (Node.js - CoffeeScript - Simple Login Example )</title>
+    <meta charset="utf-8" />
+    <title><%= @title %></title>
+    <meta name="viewport" content="width=1024" />
+    <meta name="description" content="Myanmar (Burma) Tours"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/flick/jquery-ui.css" type="text/css" charset="utf-8">
     <link rel="stylesheet" href="css/app.css" type="text/css" charset="utf-8">
 </head>
 <body>
 <header>
     <div class="container header">
-        <h1>Simple Login Example</h1>
-        <h2><a href="http://nodejs.org/">Node</a> - <a href="http://expressjs.com/">Express</a> - <a href="https://github.com/sstephenson/eco">Eco</a> - <a href="http://http://jashkenas.github.com/coffee-script/">CoffeeScript</a><br /><a href="https://github.com/sectore/nodejs-coffeescript-login">source code</a></h2>
+        <h1>Burma Tour</h1>
+
+        <h2><a href="http://nodejs.org/">Node</a> - <a href="http://expressjs.com/">Express</a> - <a
+                href="https://github.com/sstephenson/eco">Eco</a> - <a
+                href="http://http://jashkenas.github.com/coffee-script/">CoffeeScript</a><br/><a
+                href="https://github.com/sectore/nodejs-coffeescript-login">source code</a></h2>
     </div>
 </header>
+
 <div class="container">
     <%- @body %>
 </div>
 <footer>
     <div class="container footer">
-        <p>Example by <a href="http://www.websector.de">Jens Krause</a> @2011</p>
+        <p>XXX Company </a> @2012</p>
     </div>
 </footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
+
 </body>
 </html>

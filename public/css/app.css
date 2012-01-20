@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    font: 1.2em "Helvetica Neue", helvetica, arial, sans-serif;
+    font: 1em "Helvetica Neue", helvetica, arial, sans-serif;
     color: #555555;
     font-weight: normal;
     background-color: #F2F2F2;
@@ -36,9 +36,35 @@ form {
 }
 
 input {
-    width: 100%;
-    font-size: 2.2em;
+    width: 50%;
+    font-size: 1.1em;
     color: #555;
+}
+
+nav {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-arrow {
+    background: url('../images/arrow.png');
+    position: absolute;
+    display: block;
+    width: 36px;
+    height: 46px;
+    top: 30px;
+    left: 80px;
+    background-position: 0 0;
+}
+
+.nav-link {
+    display: none;
+    height: 108px;
+    margin-top: -47px;
+    position: absolute;
+    width: 139px;
 }
 
 input[type="text"],
@@ -87,8 +113,18 @@ input::-webkit-input-placeholder {
 }
 
 .container {
-    width: 500px;
+    width: 80%;
     margin: 0 auto;
+}
+
+.container #accordion {
+    width: 50%;
+    float: left;
+}
+
+.container #map {
+    width: 48%;
+    float: right;
 }
 
 #login,

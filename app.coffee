@@ -24,7 +24,7 @@ app.configure ->
 routing and view rendering
 ###
 app.get '/', (req, res) ->
-	res.render 'login', title:'log in'
+  res.render 'home', title:'XXX Title'
 
 
 ###

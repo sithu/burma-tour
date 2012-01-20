@@ -12,6 +12,7 @@
             <input type="text" name="user[name]" placeholder="username"/>
             <input type="password" name="user[password]" placeholder="password"/>
             <input type="submit" value="Login"/>
+
             <p id="loginInfo">username: luke / password: skywalker</p>
         </fieldset>
     </form>
