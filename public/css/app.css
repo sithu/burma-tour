@@ -112,19 +112,19 @@ input::-webkit-input-placeholder {
     font-style: italic;
 }
 
+.container-top {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
 .container #accordion {
-    width: 50%;
-    float: left;
-}
-
-.container #map {
-    width: 48%;
-    float: right;
+    width: 100%;
+    float: inherit;
 }
 
 #login,
@@ -189,7 +189,7 @@ input::-webkit-input-placeholder {
 }
 
 .header {
-    padding: 2em 0;
+    padding: 0.1em 0;
 }
 
 .header h1 {

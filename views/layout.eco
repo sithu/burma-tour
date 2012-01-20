@@ -11,21 +11,24 @@
 <body>
 <header>
     <div class="container header">
-        <h1>Burma Tour</h1>
-
-        <h2><a href="http://nodejs.org/">Node</a> - <a href="http://expressjs.com/">Express</a> - <a
-                href="https://github.com/sstephenson/eco">Eco</a> - <a
-                href="http://http://jashkenas.github.com/coffee-script/">CoffeeScript</a><br/><a
-                href="https://github.com/sectore/nodejs-coffeescript-login">source code</a></h2>
+        <img src="images/logo.gif" alt="http://www.logomaker.com/logo-images/0fae8b1415d69e59.gif"/>
+            <a href="#">Home</a> |
+            <a href="#">About Burma</a> |
+            <a href="#">Travel Visa</a> |
+            <a href="#">Help</a>
     </div>
 </header>
+
+<div class="container-top">
+    <img src="images/bagan.jpg" width="100%" height="200">
+</div>
 
 <div class="container">
     <%- @body %>
 </div>
 <footer>
     <div class="container footer">
-        <p>XXX Company </a> @2012</p>
+        <p>Copyright © 2012 Burma Tour Inc.</p>
     </div>
 </footer>
 
