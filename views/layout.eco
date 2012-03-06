@@ -9,13 +9,25 @@
     <link rel="stylesheet" href="css/app.css" type="text/css" charset="utf-8">
 </head>
 <body>
-<header>
-    <div class="container header">
-        <img src="images/logo.gif" alt="http://www.logomaker.com/logo-images/0fae8b1415d69e59.gif"/>
-            <a href="#">Home</a> |
-            <a href="#">About Burma</a> |
-            <a href="#">Travel Visa</a> |
-            <a href="#">Help</a>
+<header role="banner">
+    <div class="container">
+        <h1 id="logo">
+            <a>
+                <img src="" alt="http://www.logomaker.com/logo-images/0fae8b1415d69e59.gif"/>
+            </a>
+        </h1>
+        <nav role="navigator">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Burma</a></li>
+                <li><a href="#">Travel Visa</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+        <form action="" role="search" onsubmit="return submitQuery()">
+            <input type="text" id="query-input">
+            <input type="reset" value="Clear">
+        </form>
     </div>
 </header>
 
